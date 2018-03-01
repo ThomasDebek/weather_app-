@@ -11,4 +11,4 @@ Things you may want to cover:
 * Fist page
 
 
-![alt tag](http://url/to/first_view.png)
+![alt tag](http://url/to/app/assets/images/readme_app/first_view.png)
