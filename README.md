@@ -9,6 +9,3 @@ Things you may want to cover:
 * Added controller
 * Add bootstrap
 * Fist page
-
-
-![alt tag](http://url/to/app/assets/images/readme_app/first_view.png)
