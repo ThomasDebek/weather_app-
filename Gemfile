@@ -6,6 +6,10 @@ git_source(:github) do |repo_name|
 end
 
 
+gem 'forecast_io'
+gem 'geocoder'
+gem 'typeahead-rails'
+
 gem 'bootstrap', '~> 4.0'
 gem 'jquery-rails'
 

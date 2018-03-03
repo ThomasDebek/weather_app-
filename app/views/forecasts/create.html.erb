@@ -1,0 +1,12 @@
+<div class="container">
+  <%= render 'forecasts/into' %>
+  <%= render 'forecasts/request_forecast_wideget', locals: {forecast: @forecast} %>
+
+  <div class='row'>
+    <%= render 'forecasts/todays_forecast_results', locals: {forecast: @forecast} %>
+    <%= render 'forecasts/weekly_forecast_results', locals: {forecast: @forecast} %>
+  <div>
+
+
+
+</div>
