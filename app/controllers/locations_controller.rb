@@ -1,5 +1,5 @@
 class LocationsController < ApplicationController
-  
+
   def search
     geo_response = ::Geocoder.search(params[:query])
       response = geo_response.map do |node|
