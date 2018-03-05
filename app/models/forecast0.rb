@@ -10,7 +10,7 @@ class Forecast < ApplicationRecord
   #Requests a new forecast and returns an instance of this class
   def self.request(attributes)
     geo = ::Geocoder.search(attributes[:location]).first
-    self.new attributes[:location], ForecastIO.forecast(geo.latitude, geo.longitude, params: { units: 'si' })
+    self.new attributes[:location], ForecastIO.forecast(geo.latitude, geo.longitude, units: 'pl')
   end
   #Provides the daily summary text
   def daily_summary
